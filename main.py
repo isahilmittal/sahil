@@ -74,11 +74,11 @@ st.markdown("""
 # ---- HEADER SECTION ----
 st.markdown("""
     <div class="main-header">
-        <h1>👋 Hi, I'm Sahil</h1>
-        <h3>Data Scientist | AI Enthusiast | Problem Solver</h3>
+        <h1>👋 Hi, I'm Sahil Mittal</h1>
+        <h3>MIS Executive | Data Analyst</h3>
         <p style="font-size: 1.1rem; margin-top: 1rem; opacity: 0.9;">
-            I build intelligent systems, scrapers, and data-driven applications. 
-            Welcome to my portfolio where I showcase my passion for technology and innovation!
+            Passionate and detail-oriented Data Analyst with expertise in SQL, Python, Excel, Tableau, and Power BI. 
+            I specialize in transforming raw data into actionable insights to support business decision-making.
         </p>
     </div>
 """, unsafe_allow_html=True)
@@ -90,56 +90,38 @@ left_col, right_col = st.columns([1, 1])
 with left_col:
     st.markdown('<h2 class="section-header">About Me</h2>', unsafe_allow_html=True)
     st.markdown("""
-    I am a passionate data scientist and AI enthusiast with a love for building intelligent systems 
-    that solve real-world problems. My journey in technology has led me to specialize in:
+    I am an MIS Executive and Data Analyst with strong skills in **SQL, Python, Excel, Tableau, and Power BI**. 
+    I enjoy analyzing complex datasets, building dashboards, and providing business insights that drive decisions.
     
-    🔹 **Data Science & Machine Learning**  
-    🔹 **Web Scraping & Automation**  
-    🔹 **AI-Powered Applications**  
-    🔹 **Full-Stack Development**  
-    
-    Currently, I'm focused on developing job scraping applications, automation pipelines, 
-    and AI-powered tools that help businesses and individuals make better decisions.
+    **Strengths:**
+    - Data Cleaning, Transformation & Analysis
+    - SQL Querying & Database Management
+    - Power BI & Tableau Dashboards
+    - MIS Reporting & Automation (Excel, VBA)
     """)
 
-    st.markdown("### Quick Facts")
-    st.markdown("""
-    - 🎓 **Education**: Computer Science/Data Science  
-    - 🌍 **Location**: Remote/Worldwide  
-    - 💼 **Experience**: 3+ years in tech  
-    - 🚀 **Projects**: 10+ completed  
-    - 🏆 **Specialties**: Python, ML, Automation  
-    """)
+    st.markdown("<h2 class=\"section-header\">Key Skills</h2>", unsafe_allow_html=True)
 
-    st.markdown('<h2 class="section-header">Skills & Technologies</h2>', unsafe_allow_html=True)
-    
-    st.subheader("🖥️ Programming Languages")
-    lang_cols = st.columns(2)
-    for i, lang in enumerate(["Python", "JavaScript", "SQL", "R"]):
-        with lang_cols[i % 2]:
-            st.markdown(f'<div class="skill-card">{lang}</div>', unsafe_allow_html=True)
-
-    st.subheader("🛠️ Frameworks & Tools")
-    tool_cols = st.columns(2)
-    for i, tool in enumerate(["Streamlit", "Pandas", "Scikit-learn", "TensorFlow", "BeautifulSoup", "Selenium", "Git", "Docker"]):
-        with tool_cols[i % 2]:
-            st.markdown(f'<div class="skill-card">{tool}</div>', unsafe_allow_html=True)
-
-    st.subheader("📊 Data & Analytics")
-    data_cols = st.columns(2)
-    for i, skill in enumerate(["Data Visualization", "Statistical Analysis", "ETL Pipelines", "Database Design"]):
-        with data_cols[i % 2]:
+    skill_cols = st.columns(2)
+    skills = ["Power BI", "Tableau", "Excel (Advanced)", "VBA", "SQL", "Python (Pandas, NumPy, Seaborn)"]
+    for i, skill in enumerate(skills):
+        with skill_cols[i % 2]:
             st.markdown(f'<div class="skill-card">{skill}</div>', unsafe_allow_html=True)
+
+    st.markdown('<h2 class="section-header">Certifications</h2>', unsafe_allow_html=True)
+    st.markdown("""
+    - Certified Data Analyst – SLA Consultants  
+    - SQL Certification – HackerRank  
+    - Python Certification – HackerRank  
+    """)
 
     st.markdown('<h2 class="section-header">Contact Me</h2>', unsafe_allow_html=True)
     st.markdown("""
     <div class="contact-section">
         <h3>Let's Connect! 🤝</h3>
-        <p>I'm always interested in new opportunities and collaborations. 
-        Feel free to reach out if you'd like to work together!</p>
-        <p>📧 <a href="mailto:sahil@example.com" style="color:white;">sahil@example.com</a></p>
-        <p>🔗 <a href="https://linkedin.com" target="_blank" style="color:white;">LinkedIn</a></p>
-        <p>🐙 <a href="https://github.com" target="_blank" style="color:white;">GitHub</a></p>
+        <p>📧 <a href="mailto:sahilmittal656@gmail.com" style="color:white;">sahilmittal656@gmail.com</a></p>
+        <p>📞 +91 8930593945</p>
+        <p>🔗 <a href="https://linkedin.com/in/sahil-mittal-594587166/" target="_blank" style="color:white;">LinkedIn</a></p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -147,32 +129,30 @@ with left_col:
 with right_col:
     st.markdown('<h2 class="section-header">Professional Experience</h2>', unsafe_allow_html=True)
     st.markdown("""
-    ### 🏢 Senior Data Scientist | Tech Company (2022 - Present)  
-    - Led ML model development for segmentation  
-    - Built automated pipelines (1M+ records/day)  
-    - Mentored junior data scientists  
-    
-    ### 🎓 Data Science Intern | Startup (2021 - 2022)  
-    - Built web scraping solutions  
-    - Developed predictive models for sales forecasting  
-    
-    ### 🚀 Freelance Projects (2020 - Present)  
-    - E-commerce analytics  
-    - Social media scraping  
-    - Workflow automation  
+    ### 🏢 MIS Executive & Data Analyst | SLA Consultants, Delhi (Sept 2023 - Dec 2024)
+    - Developed interactive dashboards using **Power BI**.
+    - Performed **data cleaning, transformation, and analysis** using Excel and Python.
+    - Automated reporting workflows with **VBA**.
+    - Generated detailed analytical reports summarizing methodologies & insights.
     """)
 
-    st.markdown('<h2 class="section-header">Featured Projects</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="section-header">Projects</h2>', unsafe_allow_html=True)
     st.markdown("""
     <div class="project-card">
-        <h3>📊 Job Scraper Web App</h3>
-        <p>A Streamlit app that scrapes job listings with filtering & export features.</p>
-        <p><strong>Stack:</strong> Python, Streamlit, BeautifulSoup, Pandas, SQLite</p>
+        <h3>📊 Grocery Store Sales Analysis</h3>
+        <p>Analyzed sales data using SQL & Python to identify trends and opportunities.</p>
     </div>
     <div class="project-card">
-        <h3>🔍 E-commerce Analytics Dashboard</h3>
-        <p>Real-time analytics dashboard tracking sales & customer behavior.</p>
-        <p><strong>Stack:</strong> Python, Streamlit, Plotly, PostgreSQL</p>
+        <h3>⚙️ VBA Data Compiler</h3>
+        <p>Automated the compilation of multiple Excel files into a single workbook.</p>
+    </div>
+    <div class="project-card">
+        <h3>🎬 RSVP Movies Dataset Analysis</h3>
+        <p>SQL-based analysis to derive insights and optimize production planning & marketing strategies.</p>
+    </div>
+    <div class="project-card">
+        <h3>💳 Loan Default Risk Analytics</h3>
+        <p>Developed risk profiles to minimize credit risk and support lending decisions.</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -188,6 +168,6 @@ except FileNotFoundError:
 st.markdown("---")
 st.markdown("""
     <div style="text-align: center; color: #666; padding: 2rem;">
-        <p>© 2024 Sahil's Portfolio | Built with ❤️ using Streamlit</p>
+        <p>© 2025 Sahil Mittal | Portfolio built with ❤️ using Streamlit</p>
     </div>
 """, unsafe_allow_html=True)
